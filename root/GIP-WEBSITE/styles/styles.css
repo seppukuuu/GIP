@@ -1,7 +1,16 @@
+:root {
+	--dblue: #091540ff;
+	--cblue: #7692ffff;
+	--lblue: #abd2faff;
+	--yblue: #3d518cff;
+	--pblue: #1b2cc1ff;
+}
+
 body {
 	font-family: "Poppins", sans-serif;
 	scroll-behavior: smooth;
 	margin: 0;
+
 }
 
 
@@ -10,7 +19,9 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem;
-	vertical-align:center;
+	vertical-align: center;
+	background-color: #ffffffa6;
+	
 }
 
 .logo {
@@ -21,6 +32,8 @@ nav {
 	margin-right: auto;
 	text-align: center;
 	align-items: center;
+	color: white;
+	float: left;
 }
 
 .right-nav-items {
@@ -29,28 +42,35 @@ nav {
 }
 
 .nav-item {
-	margin-right: 1rem;
+	padding-right: 50px;
+	font-size: 20px;
+	cursor: pointer;
+	color: #34394d;
+
 }
+
+
 
 .search-container {
 	display: flex;
-	
-	
+	float: right;
+
 }
 
 .search-input {
-	border: none;
+	border: solid 2px #34394d;
 	border-radius: 25px;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem;
 	font-size: 1rem;
 	outline: none;
 	width: auto;
+	color: #34394d;
 }
 
 .search-icon {
 	cursor: pointer;
-	margin-right: 0.5rem;
-	color: gray;
+	margin: 0.5rem;
+	color: #34394d;
 }
 
 @media screen and (max-width: 600px) {
@@ -70,6 +90,9 @@ nav {
 	.burger-menu .nav-item {
 		margin: 1rem 0;
 		text-align: center;
+	}
+	.first{
+		size: 500px;
 	}
 }
 
@@ -148,11 +171,21 @@ h1 {
 }
 
 #first {
-	height: 300px;
-	background: #F6F0E0;
-	border-top: #FFFFFF 2px solid;
+	height: 555px;
+	background-image: url("/GIP-WEBSITE/images/pikrepo.jpg");
+	color: white;
+	font-family: "Krona One", sans-serif;
+	border: #000000 3px solid;
+	
 	margin: 0;
 	padding: 0;
+	color: #fafafa;
+
+}
+
+.names {
+	margin: 2px;
+	
 }
 
 *,

@@ -110,20 +110,3 @@ function closeNav() {
 }
 
 
-const searchIcon = document.querySelector('.search-icon');
-const searchInput = document.querySelector('.search-input');
-
-searchIcon.addEventListener('click', () => {
-  if (searchInput.style.width === '0px') {
-    searchInput.style.width = '250px';
-  } else {
-    searchInput.style.width = '0';
-  }
-});
-
-const burger = document.querySelector('.burger-menu');
-const rightNav = document.querySelector('.right-nav-items');
-
-burger.addEventListener('click', () => {
-  rightNav.classList.toggle('show');
-});
