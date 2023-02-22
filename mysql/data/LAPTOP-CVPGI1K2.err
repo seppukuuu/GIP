@@ -1,0 +1,63 @@
+2023-02-22 15:25:44 4068 [Note] Plugin 'FEDERATED' is disabled.
+2023-02-22 15:25:44 4068 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-02-22 15:25:44 4068 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-02-22 15:25:44 4068 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-02-22 15:25:44 4068 [Note] InnoDB: Not using CPU crc32 instructions
+2023-02-22 15:25:44 4068 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-02-22 15:25:44 4068 [Note] InnoDB: Completed initialization of buffer pool
+2023-02-22 15:25:44 4068 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-02-22 15:25:44 4068 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1816244 in the ib_logfiles!
+2023-02-22 15:25:44 4068 [Note] InnoDB: Database was not shutdown normally!
+2023-02-22 15:25:44 4068 [Note] InnoDB: Starting crash recovery.
+2023-02-22 15:25:44 4068 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2023-02-22 15:25:44 4068 [Note] InnoDB: Restoring possible half-written data pages 
+2023-02-22 15:25:44 4068 [Note] InnoDB: from the doublewrite buffer...
+2023-02-22 15:25:44 4068 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-02-22 15:25:44 4068 [Note] InnoDB: Waiting for purge to start
+2023-02-22 15:25:44 4068 [Note] InnoDB: 5.6.13 started; log sequence number 1816244
+2023-02-22 15:25:44 4068 [Note] Server hostname (bind-address): '*'; port: 3307
+2023-02-22 15:25:44 4068 [Note] IPv6 is available.
+2023-02-22 15:25:44 4068 [Note]   - '::' resolves to '::';
+2023-02-22 15:25:44 4068 [Note] Server socket created on IP: '::'.
+2023-02-22 15:32:36 12744 [Note] Plugin 'FEDERATED' is disabled.
+2023-02-22 15:32:36 12744 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-02-22 15:32:36 12744 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-02-22 15:32:36 12744 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-02-22 15:32:36 12744 [Note] InnoDB: Not using CPU crc32 instructions
+2023-02-22 15:32:36 12744 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-02-22 15:32:36 12744 [Note] InnoDB: Completed initialization of buffer pool
+2023-02-22 15:32:36 12744 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-02-22 15:32:36 12744 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1816254 in the ib_logfiles!
+2023-02-22 15:32:36 12744 [Note] InnoDB: Database was not shutdown normally!
+2023-02-22 15:32:36 12744 [Note] InnoDB: Starting crash recovery.
+2023-02-22 15:32:36 12744 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2023-02-22 15:32:36 12744 [Note] InnoDB: Restoring possible half-written data pages 
+2023-02-22 15:32:36 12744 [Note] InnoDB: from the doublewrite buffer...
+2023-02-22 15:32:36 12744 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-02-22 15:32:36 12744 [Note] InnoDB: Waiting for purge to start
+2023-02-22 15:32:36 12744 [Note] InnoDB: 5.6.13 started; log sequence number 1816254
+2023-02-22 15:32:36 12744 [Note] Server hostname (bind-address): '*'; port: 3307
+2023-02-22 15:32:36 12744 [Note] IPv6 is available.
+2023-02-22 15:32:36 12744 [Note]   - '::' resolves to '::';
+2023-02-22 15:32:36 12744 [Note] Server socket created on IP: '::'.
+2023-02-22 16:15:13 25252 [Note] Plugin 'FEDERATED' is disabled.
+2023-02-22 16:15:13 25252 [Note] InnoDB: The InnoDB memory heap is disabled
+2023-02-22 16:15:13 25252 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-02-22 16:15:13 25252 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-02-22 16:15:13 25252 [Note] InnoDB: Not using CPU crc32 instructions
+2023-02-22 16:15:13 25252 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2023-02-22 16:15:13 25252 [Note] InnoDB: Completed initialization of buffer pool
+2023-02-22 16:15:13 25252 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-02-22 16:15:13 25252 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 2050726 in the ib_logfiles!
+2023-02-22 16:15:13 25252 [Note] InnoDB: Database was not shutdown normally!
+2023-02-22 16:15:13 25252 [Note] InnoDB: Starting crash recovery.
+2023-02-22 16:15:13 25252 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2023-02-22 16:15:13 25252 [Note] InnoDB: Restoring possible half-written data pages 
+2023-02-22 16:15:13 25252 [Note] InnoDB: from the doublewrite buffer...
+2023-02-22 16:15:13 25252 [Note] InnoDB: 128 rollback segment(s) are active.
+2023-02-22 16:15:13 25252 [Note] InnoDB: Waiting for purge to start
+2023-02-22 16:15:13 25252 [Note] InnoDB: 5.6.13 started; log sequence number 2050726
+2023-02-22 16:15:13 25252 [Note] Server hostname (bind-address): '*'; port: 3307
+2023-02-22 16:15:13 25252 [Note] IPv6 is available.
+2023-02-22 16:15:13 25252 [Note]   - '::' resolves to '::';
+2023-02-22 16:15:13 25252 [Note] Server socket created on IP: '::'.
