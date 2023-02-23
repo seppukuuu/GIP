@@ -31,6 +31,7 @@ if (mysqli_num_rows($result) > 0) {
     echo "<p>Color: " . $product["Kleur"] . "</p>";
     echo "<p>Price: " . $product["Prijs"] . "</p>";
     echo "<p>Description: " . $product["Beschrijving"] . "</p>";
+    
 } else {
     // Geef een foutmelding als er geen product is gevonden
     echo "<h1>Error 404.<h1>";

@@ -2,6 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   margin: 0;
+  
 }
 
 nav {
@@ -198,7 +199,7 @@ h1 {
 }
 
 .slider>a, .slider>img {
-  flex: 0 0 calc(100% / var(--items-per-screen));
+  flex: 0 0.01 calc(100% / var(--items-per-screen));
   max-width: calc(100% / var(--items-per-screen));
   aspect-ratio: 16 / 9;
   padding: var(--img-gap);

@@ -42,7 +42,7 @@ body {
     font-size: 40px;
     letter-spacing: 1.5px;
     margin-bottom: 10px;
-    color: grey;
+    color: rgb(0, 0, 0);
 }
 
 .form .form-txt span {
@@ -54,11 +54,16 @@ body {
     font-size: 22px;
     font-weight: 600;
     margin: 15px 0;
-    color: grey;
+    color: rgb(0, 0, 0);
+}
+
+.form .form-txt a {
+    
+    color: rgb(102, 102, 102);
 }
 
 .form .form-txt p {
-    color: grey;
+    color: rgb(102, 102, 102);
     font-size: 14px;
 }
 
