@@ -1,5 +1,10 @@
-[Wed Feb 22 16:15:14.093810 2023] [mpm_winnt:notice] [pid 3512:tid 772] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
-[Wed Feb 22 16:15:14.093810 2023] [mpm_winnt:notice] [pid 3512:tid 772] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
-[Wed Feb 22 16:15:14.093810 2023] [core:notice] [pid 3512:tid 772] AH00094: Command line: 'C:\\Users\\seppe\\Documents\\GitHub\\GIP/apache2/bin/httpd_usbwv8.exe -d C:/Users/seppe/Documents/GitHub/GIP/apache2'
-[Wed Feb 22 16:15:14.098796 2023] [mpm_winnt:notice] [pid 3512:tid 772] AH00418: Parent: Created child process 11384
-[Wed Feb 22 16:15:14.700343 2023] [mpm_winnt:notice] [pid 11384:tid 792] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 23 14:55:57.892354 2023] [mpm_winnt:notice] [pid 25772:tid 808] AH00455: Apache/2.4.6 (Win32) PHP/5.4.17 configured -- resuming normal operations
+[Thu Feb 23 14:55:57.893353 2023] [mpm_winnt:notice] [pid 25772:tid 808] AH00456: Apache Lounge VC10 Server built: Jul 16 2013 11:15:41
+[Thu Feb 23 14:55:57.893353 2023] [core:notice] [pid 25772:tid 808] AH00094: Command line: 'C:\\Users\\seppe\\Documents\\GitHub\\GIP/apache2/bin/httpd_usbwv8.exe -d C:/Users/seppe/Documents/GitHub/GIP/apache2'
+[Thu Feb 23 14:55:57.899334 2023] [mpm_winnt:notice] [pid 25772:tid 808] AH00418: Parent: Created child process 18876
+[Thu Feb 23 14:55:58.775918 2023] [mpm_winnt:notice] [pid 18876:tid 908] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 23 14:56:07.034687 2023] [:error] [pid 18876:tid 1268] [client ::1:51065] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in C:\\Users\\seppe\\Documents\\GitHub\\GIP\\root\\GIP-SITE\\product.php on line 18, referer: http://localhost:8080/GIP-SITE/
+[Thu Feb 23 19:19:43.303148 2023] [:error] [pid 18876:tid 1268] [client ::1:58247] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in C:\\Users\\seppe\\Documents\\GitHub\\GIP\\root\\product.php on line 13, referer: http://localhost:8080/
+[Thu Feb 23 19:19:43.305134 2023] [:error] [pid 18876:tid 1268] [client ::1:58247] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in C:\\Users\\seppe\\Documents\\GitHub\\GIP\\root\\product.php on line 20, referer: http://localhost:8080/
+[Thu Feb 23 19:19:43.305134 2023] [:error] [pid 18876:tid 1268] [client ::1:58247] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\\Users\\seppe\\Documents\\GitHub\\GIP\\root\\product.php on line 23, referer: http://localhost:8080/
+[Thu Feb 23 19:19:43.305134 2023] [:error] [pid 18876:tid 1268] [client ::1:58247] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in C:\\Users\\seppe\\Documents\\GitHub\\GIP\\root\\product.php on line 38, referer: http://localhost:8080/
