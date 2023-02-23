@@ -199,15 +199,15 @@ h1 {
 }
 
 .slider>a, .slider>img {
-  flex: 0 0.01 calc(100% / var(--items-per-screen));
+  flex: 0 0 calc(100% / var(--items-per-screen));
   max-width: calc(100% / var(--items-per-screen));
   aspect-ratio: 16 / 9;
-  padding: var(--img-gap);
   border-radius: 1rem;
   background-color: #f0f0f0;
   border: solid 3px #504e42;
   border-collapse: collapse;
-  margin: 2px;
+  margin-right: 0.8px;
+  
 }
 
 a>img {
